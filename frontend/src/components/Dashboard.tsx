@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Dashboard: React.FC = () => {
     return (
         <DashboardContainer>
-            <DashboardTitle>Venture Capital Calculator</DashboardTitle>
+            <DashboardTitle href="/calculators/*">Venture Capital Calculator</DashboardTitle>
             <OptionsContainer>
-                <DashboardLink href="/calculator">Calculators</DashboardLink>
+                <DashboardLink href="/calculators/*">Calculators</DashboardLink>
                 <DashboardLink href="/about-us">About Us</DashboardLink>
                 <DashboardLink href="/services">Services</DashboardLink>
             </OptionsContainer>

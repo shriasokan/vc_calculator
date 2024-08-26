@@ -14,7 +14,7 @@ function App() {
       <ContentWrapper>
         <Routes>
           <Route path="/about-us" element={<AboutUsPage />} />
-          <Route path="/calculator" element={<CalculatorPage />} />
+          <Route path="/calculators/*" element={<CalculatorPage />} />
           <Route path="/services" element={<ServicesPage />} />
         </Routes>
       </ContentWrapper>

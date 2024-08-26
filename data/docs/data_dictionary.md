@@ -1,4 +1,5 @@
-Describes and documents datasets
+Documents the accuracy metrics and runtime of different tested models. Not all tested models are included here, especially many
+of the StackingRegressor Ensembles because they provided inaccurate metrics and took a long time to produce results
 
 HyperParam GridSearch R-Squared = 0.041780309258948045
 HyperParam GridSearch Mean Squared Error: 1.4042464970348447
@@ -27,4 +28,3 @@ LightGBM (with Custom Wrapper for Early Stopping) Model Runtime: 7.6s
 StackingRegressor Ensemble (RandomForest, GradientBoosting, LightGBM, XGBoost) R-squared: -0.12981834484937615
 StackingRegressor Ensemble (RandomForest, GradientBoosting, LightGBM, XGBoost) Mean Squared Error: 1.6557199443620996
 
-Other StackingRegressor Ensembles provided less accurate metrics than LightGBM, which has been the most accurate model thus far
